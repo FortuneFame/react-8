@@ -1,10 +1,15 @@
 import React from "react";
 
-function App() {
+import ControlledForm from './components/Controlled/';
+import UncontrolledForm from './components/Uncontrolled';
+
+const App = () => {
   return (
-    <div>
-    </div>
+    <>
+      <ControlledForm />
+      <UncontrolledForm />
+    </>
   );
-}
+};
 
 export default App;
